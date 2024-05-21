@@ -1,0 +1,107 @@
+{
+  "datasets": [
+    {
+      "contributor": {
+        "name": "string (org or anon)",
+        "email": "string"
+      },
+      "time_period": "integer (2024, 2023, 2022, 2021, 2020)",
+      "number_of_applications_tested": "integer",
+      "cwes": [
+        {
+          "cwe_id": "integer",
+          "occurrences": "integer"
+        }
+      ],
+      "nist_csf_2_0": [
+        {
+          "control_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "iso": [
+        {
+          "control_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "mitre_att&ck": [
+        {
+          "technique_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "cis_controls": [
+        {
+          "control_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "cve": [
+        {
+          "cve_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "fair": [
+        {
+          "risk_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "stride": [
+        {
+          "threat_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "enisa": [
+        {
+          "control_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "asvs": [
+        {
+          "control_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "samm": [
+        {
+          "practice_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "mitre_atlas": [
+        {
+          "attack_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "bsimm": [
+        {
+          "activity_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "opencre": [
+        {
+          "cre_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "cyclone_dx_sbom": [
+        {
+          "component_id": "string",
+          "occurrences": "integer"
+        }
+      ],
+      "type_of_testing": "string (TaH, HaT, Tools)",
+      "primary_language": "string (code)",
+      "geographic_region": "string (Global, North America, EU, Asia, other)",
+      "primary_industry": "string (Multiple, Financial, Industrial, Software, ??)",
+      "contains_retests_or_same_applications_multiple_times": "boolean (T/F)"
+    }
+  ]
+}
