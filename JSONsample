@@ -1,0 +1,218 @@
+{
+  "datasets": [
+    {
+      "contributor": {
+        "name": "Sample Org",
+        "email": "contact@sampleorg.com"
+      },
+      "time_period": 2024,
+      "number_of_applications_tested": 15,
+      "cwes": [
+        {
+          "cwe_id": 79,
+          "occurrences": 8
+        },
+        {
+          "cwe_id": 89,
+          "occurrences": 5
+        }
+      ],
+      "nist_csf_2_0": [
+        {
+          "control_id": "CSF_ID_1",
+          "occurrences": 3
+        }
+      ],
+      "iso": [
+        {
+          "control_id": "ISO_ID_1",
+          "occurrences": 2
+        }
+      ],
+      "mitre_att&ck": [
+        {
+          "technique_id": "ATT&CK_ID_1",
+          "occurrences": 4
+        }
+      ],
+      "cis_controls": [
+        {
+          "control_id": "CIS_ID_1",
+          "occurrences": 5
+        }
+      ],
+      "cve": [
+        {
+          "cve_id": "CVE-2024-0001",
+          "occurrences": 1
+        }
+      ],
+      "fair": [
+        {
+          "risk_id": "FAIR_ID_1",
+          "occurrences": 2
+        }
+      ],
+      "stride": [
+        {
+          "threat_id": "STRIDE_ID_1",
+          "occurrences": 3
+        }
+      ],
+      "enisa": [
+        {
+          "control_id": "ENISA_ID_1",
+          "occurrences": 2
+        }
+      ],
+      "asvs": [
+        {
+          "control_id": "ASVS_ID_1",
+          "occurrences": 1
+        }
+      ],
+      "samm": [
+        {
+          "practice_id": "SAMM_ID_1",
+          "occurrences": 2
+        }
+      ],
+      "mitre_atlas": [
+        {
+          "attack_id": "ATLAS_ID_1",
+          "occurrences": 1
+        }
+      ],
+      "bsimm": [
+        {
+          "activity_id": "BSIMM_ID_1",
+          "occurrences": 2
+        }
+      ],
+      "opencre": [
+        {
+          "cre_id": "CRE_ID_1",
+          "occurrences": 1
+        }
+      ],
+      "cyclone_dx_sbom": [
+        {
+          "component_id": "SBOM_ID_1",
+          "occurrences": 1
+        }
+      ],
+      "type_of_testing": "TaH",
+      "primary_language": "Python",
+      "geographic_region": "Global",
+      "primary_industry": "Software",
+      "contains_retests_or_same_applications_multiple_times": true
+    },
+    {
+      "contributor": {
+        "name": "Another Org",
+        "email": "info@anotherorg.com"
+      },
+      "time_period": 2023,
+      "number_of_applications_tested": 12,
+      "cwes": [
+        {
+          "cwe_id": 79,
+          "occurrences": 6
+        },
+        {
+          "cwe_id": 89,
+          "occurrences": 3
+        }
+      ],
+      "nist_csf_2_0": [
+        {
+          "control_id": "CSF_ID_2",
+          "occurrences": 2
+        }
+      ],
+      "iso": [
+        {
+          "control_id": "ISO_ID_2",
+          "occurrences": 1
+        }
+      ],
+      "mitre_att&ck": [
+        {
+          "technique_id": "ATT&CK_ID_2",
+          "occurrences": 3
+        }
+      ],
+      "cis_controls": [
+        {
+          "control_id": "CIS_ID_2",
+          "occurrences": 4
+        }
+      ],
+      "cve": [
+        {
+          "cve_id": "CVE-2023-0001",
+          "occurrences": 1
+        }
+      ],
+      "fair": [
+        {
+          "risk_id": "FAIR_ID_2",
+          "occurrences": 1
+        }
+      ],
+      "stride": [
+        {
+          "threat_id": "STRIDE_ID_2",
+          "occurrences": 2
+        }
+      ],
+      "enisa": [
+        {
+          "control_id": "ENISA_ID_2",
+          "occurrences": 1
+        }
+      ],
+      "asvs": [
+        {
+          "control_id": "ASVS_ID_2",
+          "occurrences": 2
+        }
+      ],
+      "samm": [
+        {
+          "practice_id": "SAMM_ID_2",
+          "occurrences": 1
+        }
+      ],
+      "mitre_atlas": [
+        {
+          "attack_id": "ATLAS_ID_2",
+          "occurrences": 2
+        }
+      ],
+      "bsimm": [
+        {
+          "activity_id": "BSIMM_ID_2",
+          "occurrences": 1
+        }
+      ],
+      "opencre": [
+        {
+          "cre_id": "CRE_ID_2",
+          "occurrences": 2
+        }
+      ],
+      "cyclone_dx_sbom": [
+        {
+          "component_id": "SBOM_ID_2",
+          "occurrences": 1
+        }
+      ],
+      "type_of_testing": "HaT",
+      "primary_language": "Java",
+      "geographic_region": "North America",
+      "primary_industry": "Financial",
+      "contains_retests_or_same_applications_multiple_times": false
+    }
+  ]
+}
